@@ -38,8 +38,8 @@ public class CapestraDB {
 
             String connectionName = "jdbc:mysql://localhost:3306/";
             String databaseName = "orderentrysystem";
-            String databaseUserName = "root";
-            String databasePassword = "root";
+            String databaseUserName = "";
+            String databasePassword = ""
 
             // Establish a connection
             connection = DriverManager.getConnection(connectionName + databaseName, databaseUserName, databasePassword);
